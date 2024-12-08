@@ -1,0 +1,163 @@
+{
+  "liblabVersion": "2.9.5",
+  "date": "2024-12-06T16:54:39.768Z",
+  "config": {
+    "languages": ["python"],
+    "liblabVersion": "2",
+    "apiId": 1524,
+    "sdkName": "swaggerpetstore",
+    "sdkVersion": "1.0.0",
+    "deliveryMethods": ["zip"],
+    "authentication": {
+      "access": {
+        "prefix": "Bearer"
+      }
+    },
+    "languageOptions": {
+      "python": {
+        "alwaysInitializeOptionals": false,
+        "pypiPackageName": "",
+        "githubRepoName": "",
+        "ignoreFiles": [],
+        "sdkVersion": "1.0.0",
+        "liblabVersion": "2"
+      },
+      "typescript": {
+        "bundle": true,
+        "exportClassDefault": false,
+        "httpClient": "fetch",
+        "npmName": "",
+        "npmOrg": "",
+        "githubRepoName": "",
+        "ignoreFiles": [],
+        "sdkVersion": "1.0.0",
+        "liblabVersion": "2",
+        "generateEnumAs": "union"
+      },
+      "go": {
+        "goModuleName": "github.com/swagger-api/swagger-petstore",
+        "githubRepoName": "",
+        "ignoreFiles": [],
+        "sdkVersion": "1.0.0",
+        "liblabVersion": "2"
+      },
+      "java": {
+        "groupId": "com.swagger",
+        "artifactId": "petstore",
+        "ignoreFiles": [],
+        "sdkVersion": "1.0.0",
+        "liblabVersion": "2"
+      }
+    },
+    "includeWatermark": true,
+    "alwaysInitializeOptionals": false,
+    "pypiPackageName": "",
+    "githubRepoName": "",
+    "ignoreFiles": [],
+    "language": "python",
+    "deliveryMethod": "zip",
+    "hooks": {
+      "enabled": false,
+      "sourceDir": ""
+    },
+    "usesFormData": false,
+    "environmentVariables": [],
+    "fileOutput": "/tmp",
+    "inferServiceNames": false,
+    "httpLibrary": {
+      "name": "axios",
+      "packages": {
+        "axios": "^1.7.7"
+      },
+      "languages": ["typescript"]
+    },
+    "auth": [],
+    "retry": {
+      "enabled": true,
+      "maxAttempts": 3,
+      "retryDelay": 150,
+      "maxDelay": 5000,
+      "retryDelayJitter": 50,
+      "backOffFactor": 2,
+      "httpCodesToRetry": [408, 429, 500, 502, 503, 504],
+      "httpMethodsToRetry": ["GET", "POST", "PUT", "DELETE", "PATCH", "HEAD", "OPTIONS"]
+    },
+    "multiTenant": false,
+    "customQueries": {
+      "paths": [],
+      "rawQueries": [],
+      "queriesData": []
+    },
+    "generateEnv": true,
+    "devContainer": false,
+    "includeOptionalSnippetParameters": true,
+    "responseHeaders": false
+  },
+  "files": [
+    "src/swagger_petstore_open_api_3_0/models/utils/base_model.py",
+    "src/swagger_petstore_open_api_3_0/models/utils/json_map.py",
+    "src/swagger_petstore_open_api_3_0/models/__init__.py",
+    "src/swagger_petstore_open_api_3_0/services/__init__.py",
+    "src/swagger_petstore_open_api_3_0/services/utils/__init__.py",
+    "src/swagger_petstore_open_api_3_0/__init__.py",
+    "src/swagger_petstore_open_api_3_0/net/__init__.py",
+    "src/swagger_petstore_open_api_3_0/net/headers/__init__.py",
+    "src/swagger_petstore_open_api_3_0/net/transport/__init__.py",
+    "src/swagger_petstore_open_api_3_0/hooks/__init__.py",
+    "src/swagger_petstore_open_api_3_0/net/environment/__init__.py",
+    "src/swagger_petstore_open_api_3_0/net/request_chain/__init__.py",
+    "src/swagger_petstore_open_api_3_0/net/request_chain/handlers/__init__.py",
+    "src/swagger_petstore_open_api_3_0/models/utils/__init__.py",
+    "src/swagger_petstore_open_api_3_0/net/transport/request.py",
+    "src/swagger_petstore_open_api_3_0/net/transport/response.py",
+    "src/swagger_petstore_open_api_3_0/net/transport/request_error.py",
+    "src/swagger_petstore_open_api_3_0/sdk.py",
+    "src/swagger_petstore_open_api_3_0/net/transport/serializer.py",
+    "src/swagger_petstore_open_api_3_0/services/utils/validator.py",
+    "src/swagger_petstore_open_api_3_0/services/utils/base_service.py",
+    "pyproject.toml",
+    ".gitignore",
+    "src/swagger_petstore_open_api_3_0/models/utils/cast_models.py",
+    "src/swagger_petstore_open_api_3_0/net/transport/utils.py",
+    "src/swagger_petstore_open_api_3_0/hooks/hook.py",
+    "install.sh",
+    "install.cmd",
+    "examples/install.sh",
+    "examples/install.cmd",
+    "src/swagger_petstore_open_api_3_0/net/headers/base_header.py",
+    "src/swagger_petstore_open_api_3_0/net/headers/access_token_auth.py",
+    "src/swagger_petstore_open_api_3_0/net/environment/environment.py",
+    "src/swagger_petstore_open_api_3_0/net/request_chain/request_chain.py",
+    "src/swagger_petstore_open_api_3_0/net/request_chain/handlers/base_handler.py",
+    "src/swagger_petstore_open_api_3_0/net/request_chain/handlers/http_handler.py",
+    "src/swagger_petstore_open_api_3_0/net/request_chain/handlers/hook_handler.py",
+    "src/swagger_petstore_open_api_3_0/net/request_chain/handlers/retry_handler.py",
+    "examples/sample.py",
+    ".env.example",
+    "/examples/.env.example",
+    "src/swagger_petstore_open_api_3_0/services/utils/default_headers.py",
+    "documentation/models/FindPetsByStatusStatus.md",
+    "documentation/models/ApiResponse.md",
+    "documentation/models/User.md",
+    "documentation/models/Category.md",
+    "documentation/models/Tag.md",
+    "src/swagger_petstore_open_api_3_0/models/utils/one_of_base_model.py",
+    "documentation/models/Pet.md",
+    "documentation/models/Order.md",
+    "src/swagger_petstore_open_api_3_0/models/find_pets_by_status_status.py",
+    "src/swagger_petstore_open_api_3_0/models/api_response.py",
+    "src/swagger_petstore_open_api_3_0/models/user.py",
+    "src/swagger_petstore_open_api_3_0/models/category.py",
+    "src/swagger_petstore_open_api_3_0/models/tag.py",
+    "documentation/services/StoreService.md",
+    "src/swagger_petstore_open_api_3_0/models/pet.py",
+    "src/swagger_petstore_open_api_3_0/models/order.py",
+    "src/swagger_petstore_open_api_3_0/services/store.py",
+    "documentation/services/UserService.md",
+    "documentation/services/PetService.md",
+    "README.md",
+    "PyPI_README.md",
+    "src/swagger_petstore_open_api_3_0/services/user.py",
+    "src/swagger_petstore_open_api_3_0/services/pet.py"
+  ]
+}

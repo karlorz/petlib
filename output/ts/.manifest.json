@@ -1,0 +1,173 @@
+{
+  "liblabVersion": "2.9.5",
+  "date": "2024-12-06T16:54:39.693Z",
+  "config": {
+    "languages": ["typescript"],
+    "liblabVersion": "2",
+    "apiId": 1524,
+    "sdkName": "swaggerpetstore",
+    "sdkVersion": "1.0.0",
+    "deliveryMethods": ["zip"],
+    "authentication": {
+      "access": {
+        "prefix": "Bearer"
+      }
+    },
+    "languageOptions": {
+      "python": {
+        "alwaysInitializeOptionals": false,
+        "pypiPackageName": "",
+        "githubRepoName": "",
+        "ignoreFiles": [],
+        "sdkVersion": "1.0.0",
+        "liblabVersion": "2"
+      },
+      "typescript": {
+        "bundle": true,
+        "exportClassDefault": false,
+        "httpClient": "fetch",
+        "npmName": "",
+        "npmOrg": "",
+        "githubRepoName": "",
+        "ignoreFiles": [],
+        "sdkVersion": "1.0.0",
+        "liblabVersion": "2",
+        "generateEnumAs": "union"
+      },
+      "go": {
+        "goModuleName": "github.com/swagger-api/swagger-petstore",
+        "githubRepoName": "",
+        "ignoreFiles": [],
+        "sdkVersion": "1.0.0",
+        "liblabVersion": "2"
+      },
+      "java": {
+        "groupId": "com.swagger",
+        "artifactId": "petstore",
+        "ignoreFiles": [],
+        "sdkVersion": "1.0.0",
+        "liblabVersion": "2"
+      }
+    },
+    "includeWatermark": true,
+    "language": "typescript",
+    "deliveryMethod": "zip",
+    "hooks": {
+      "enabled": false,
+      "sourceDir": ""
+    },
+    "bundle": true,
+    "exportClassDefault": false,
+    "httpClient": "fetch",
+    "npmName": "",
+    "npmOrg": "",
+    "githubRepoName": "",
+    "ignoreFiles": [],
+    "generateEnumAs": "union",
+    "typescriptVersion": "5.3.3",
+    "zodVersion": "3.22.0",
+    "compilerOptions": {
+      "target": "es6",
+      "module": "Node16",
+      "lib": ["es2018", "dom"]
+    },
+    "usesFormData": false,
+    "environmentVariables": [],
+    "fileOutput": "/tmp",
+    "inferServiceNames": false,
+    "httpLibrary": {
+      "name": "fetch",
+      "packages": {},
+      "languages": ["typescript"],
+      "types": {
+        "packageName": "@types/isomorphic-fetch",
+        "version": "^0.0.36"
+      }
+    },
+    "auth": [],
+    "retry": {
+      "enabled": true,
+      "maxAttempts": 3,
+      "retryDelay": 150,
+      "maxDelay": 5000,
+      "retryDelayJitter": 50,
+      "backOffFactor": 2,
+      "httpCodesToRetry": [408, 429, 500, 502, 503, 504],
+      "httpMethodsToRetry": ["GET", "POST", "PUT", "DELETE", "PATCH", "HEAD", "OPTIONS"]
+    },
+    "multiTenant": false,
+    "customQueries": {
+      "paths": [],
+      "rawQueries": [],
+      "queriesData": []
+    },
+    "generateEnv": true,
+    "devContainer": false,
+    "includeOptionalSnippetParameters": true,
+    "responseHeaders": false
+  },
+  "files": [
+    "package.json",
+    "tsconfig.json",
+    "examples/tsconfig.json",
+    "examples/package.json",
+    "examples/README.md",
+    "examples/src/index.ts",
+    "src/http/client.ts",
+    "src/services/pet/models/pet.ts",
+    "src/services/pet/models/find-pets-by-status-status.ts",
+    "src/services/pet/models/api-response.ts",
+    "src/services/store/models/order.ts",
+    "src/services/user/models/user.ts",
+    "src/services/pet/models/category.ts",
+    "src/services/pet/models/tag.ts",
+    "src/services/pet/models/pet-status.ts",
+    "src/services/store/models/order-status.ts",
+    ".gitignore",
+    "src/services/base-service.ts",
+    "src/services/pet/pet.ts",
+    "src/services/store/store.ts",
+    "src/services/user/user.ts",
+    "src/index.ts",
+    "src/services/pet/models/index.ts",
+    "src/services/store/models/index.ts",
+    "src/services/user/models/index.ts",
+    "src/services/pet/index.ts",
+    "src/services/store/index.ts",
+    "src/services/user/index.ts",
+    "src/http/index.ts",
+    "src/http/handlers/handler-chain.ts",
+    "src/http/types.ts",
+    "src/http/error.ts",
+    "src/http/handlers/terminating-handler.ts",
+    "src/http/handlers/hook-handler.ts",
+    "src/http/hooks/custom-hook.ts",
+    "src/http/hooks/hook.ts",
+    "src/http/handlers/retry-handler.ts",
+    "src/http/environment.ts",
+    "src/http/handlers/response-validation-handler.ts",
+    "src/http/handlers/auth-handler.ts",
+    "src/services/pet/request-params.ts",
+    "src/services/user/request-params.ts",
+    "documentation/models/FindPetsByStatusStatus.md",
+    "documentation/models/ApiResponse.md",
+    "documentation/models/User.md",
+    "documentation/models/Category.md",
+    "documentation/models/Tag.md",
+    "src/http/handlers/request-validation-handler.ts",
+    "src/http/transport/request.ts",
+    "src/http/transport/request-builder.ts",
+    "src/http/serialization/base-serializer.ts",
+    "src/http/serialization/query-serializer.ts",
+    "src/http/serialization/path-serializer.ts",
+    "src/http/serialization/header-serializer.ts",
+    "src/http/transport/request-fetch-adapter.ts",
+    "src/http/transport/transport-hook-adapter.ts",
+    "documentation/models/Pet.md",
+    "documentation/models/Order.md",
+    "documentation/services/StoreService.md",
+    "documentation/services/UserService.md",
+    "documentation/services/PetService.md",
+    "README.md"
+  ]
+}
